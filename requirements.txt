@@ -1,4 +1,2 @@
 jupyter-book
-matplotlib
-numpy
-jupytext
+jupytext>=0.16
