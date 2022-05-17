@@ -3,5 +3,6 @@
 *.log
 tmp/
 
-
+.ipynb_checkpoints/
+.stack_work/
 _build/
