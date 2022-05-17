@@ -2,10 +2,10 @@ name:                mynewbook
 version:             0.1.0.0
 -- synopsis:
 -- description:
-homepage:            https://github.com/githubuser/mynewbook#readme
+homepage:            https://github.com/dylnb/jb-test
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
+author:              Dylan Bumford
 maintainer:          example@example.com
 copyright:           2022 Author name here
 category:            Web

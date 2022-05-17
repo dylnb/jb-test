@@ -1,9 +1,10 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: My sample book
-author: The Jupyter Book Community
-logo: logo.png
+title: Test Book
+author: Dylan Bumford
+copyright: '2022'
+# logo: logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -29,3 +30,8 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+
+# Make code cells executable in situ
+launch_buttons:
+  thebe: true
+  binderhub_url: "https://mybinder.org"

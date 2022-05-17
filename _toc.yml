@@ -5,6 +5,6 @@ format: jb-book
 root: intro
 chapters:
 - file: markdown
-- file: haskdown
-- file: python-notebook
+- file: arithmetic
+- file: lists
 - file: haskell-notebook
