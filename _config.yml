@@ -3,7 +3,7 @@
 
 title: Test Book
 author: Dylan Bumford
-copyright: '2022'
+copyright: "2022"
 # logo: logo.png
 
 # Force re-execution of notebooks on each build.
@@ -33,6 +33,6 @@ html:
 
 # Make code cells executable in situ
 launch_buttons:
+  notebook_interface: classic
+  binderhub_url: https://mybinder.org
   thebe: true
-  binderhub_url: "https://mybinder.org"
-  notebook_interface: "classic"
