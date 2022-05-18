@@ -273,12 +273,12 @@ const thebe_selector_output = ".output, .cell_output"
 <h1>Haskell notebook<a class="headerlink" href="#haskell-notebook" title="Permalink to this headline">¶</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-Haskell notranslate"><div class="highlight"><pre><span></span><span class="mi">3</span><span class="o">+</span><span class="mi">4</span><span class="w"></span>
+<div class="highlight-Haskell notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">$</span><span class="w"> </span><span class="mi">3</span><span class="o">+</span><span class="mi">4</span><span class="w"></span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>7
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>8
 </pre></div>
 </div>
 </div>
@@ -305,6 +305,7 @@ const thebe_selector_output = ".output, .cell_output"
         },
         kernelOptions: {
             kernelName: "haskell",
+            name: "haskell",
             path: "./."
         },
         predefinedOutput: true
