@@ -1,0 +1,4 @@
+#!/bin/bash
+
+jupyter-book build .
+sed -i '' 's/\([[:space:]]*\)kernelName:\(.*\),/& \n\1name:\2,/' _build/html/*.html
